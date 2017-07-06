@@ -16,8 +16,7 @@ class JUnitTest extends JUnitBaseClass{
 	
 	@Before
 	void setUp(){
-		INPUT.userId("ktu_user")
-		INPUT.pin("123456")
+		INPUT.userId("ktu_user") 
 		
 		advSetUtils.setAdvancedSetting("loginMaximumRetries", "5")
 		advSetUtils.setAdvancedSetting("loginMaximumRetriesWithoutDelay", "5")
